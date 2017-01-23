@@ -9,7 +9,7 @@ Arkadalar merhaba uzun süredir , kişisel bir blog açmak istiyorum fakat içer
 Bu güne kadar hep , birçok hosting şirketi ile anlaşarak , çeşitli paralar ödeyerek sitelerimi PHP tabanlı oluşturdum ve genelde aldığım iş teklifleri de hep **PHP** tabanlı bir site kurulması üzerine oldu fakat kişisel sitem için pages.github'un sunmuş olduğu , herhangi bir hosting hizmeti alma gerektirmeyen tamamen PHP'den sıyrılmış , **.md** uzantılı dosyaların, **gem** dosyalarının mimarisini oluşturduğu statik website kurma uygulaması [Jekyll](https://jekyllrb.com/ "Jekyll'in resmi sitesi")'i tercih ettim.
 
 ### Nedir bu Jekyll ?
-![Jekyll Logosu Nasıl Gözüküyor ?](yuklemeler/jekyll.png){:class="" width="50%"}
+![Jekyll Logosu Nasıl Gözüküyor ?](/yuklemeler/jekyll.png){:class="" width="50%"}
 Jekyll , geçtiğimiz senelerde Github sitesinin kurucularından Tom Preston-Werner tarafından Ruby dili ile geliştirilmeye başlanmış bir statik site oluşturucusudur , standart PHP,ASP gibi dillerle yazılan sitelerden en büyük farkı , herhangi bir veritabanı sunucusuna bağımlı olmamasıdır , bu sayede hem herhangi bir **hack** tehlikesi ile karşı karşıya kalmıyor hem de **Markdown** ya da **Textile** ile Liquid şablonuyla oluşturulan içeriği işleyen bu sistem sayesinde herhangi bir hosting hizmeti almaya gerek kalmadan pages.github'tan yararlanabiliyor , ücretsiz bir şekilde sürekli geliştirebilecek bir siteye sahip olabiliyoruz.
 <!--dahafazla-->
 *   **Güvenilir :** Herhangi bir veritabanı bağlantısına gerek duymuyor , dosyalarımızı direk githubtaki hesabımızdan çekiyor böylece bizlerde birçok korsan saldırısından koruyacak Github gibi bir sitenin gölgesi altında kişisel paylaşımlarımızı gönül rahatlığı ile yapabiliyoruz.
