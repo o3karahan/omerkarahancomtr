@@ -1,0 +1,19 @@
+---
+layout: varsayilan
+---
+<!-- Sitenin sağ tarafı -->
+<section id="site-sag" class="sag-wrap">
+ {% for post in site.posts limit 5 %}
+	<article id="yazi-id" >
+	<header class="yazi-ustu">
+	<h2 class="yazi-basligi"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+	</header>
+	<div class="yazi-icerigi">
+	{{ post.content | split:'<!--dahafazla-->' | first }}
+	</div>
+	</article>
+	{% endfor %}
+	<footer class="devamini-goruntule">
+	<a class="devamini-goruntule-buton"><span class="ikon-saga-dogru"></span></a>
+	</footer>
+</section>
