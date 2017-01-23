@@ -1,0 +1,17 @@
+---
+layout: varsayilan
+---
+<!-- Sitenin sağ tarafı -->
+<section id="site-sag" class="sag-wrap">
+	<article id="yazi-id" >
+	<header class="yazi-ustu">
+	<h2 class="yazi-basligi"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+	</header>
+	<div class="yazi-icerigi">
+	{{content}}
+	</div>
+	</article>
+	<footer class="devamini-goruntule">
+	<a class="devamini-goruntule-buton"><span class="ikon-saga-dogru"></span></a>
+	</footer>
+</section>

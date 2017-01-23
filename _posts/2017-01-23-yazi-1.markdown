@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: tekil
 title:  "Pages.Github ile ilk kişisel blogumu Jekyll ile güçlendirdim !"
 date:   2017-01-23 12:42:46 +0300
 categories: Diğer
