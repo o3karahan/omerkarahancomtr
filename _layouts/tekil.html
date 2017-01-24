@@ -3,7 +3,7 @@ layout: varsayilan
 ---
 <!-- Sitenin sağ tarafı -->
 <section id="site-sag" class="sag-wrap">
-	<article id="yazi-id" class="tekil">
+	<article id="yazi-{{ page.slug }}" class="tekil">
 	<header class="yazi-ustu">
 	<h2 class="yazi-basligi"><a title="{{ page.title }}" href="{{ page.link }}">{% if page.headline %}{{ page.headline }}{% else %}{{ page.title }}{% endif %}</a></h2>
 	</header>
