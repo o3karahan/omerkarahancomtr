@@ -2,6 +2,7 @@
 layout: tekil
 title:  "Pages.Github ile ilk kişisel blogumu Jekyll ile güçlendirdim !"
 date:   2017-01-23 12:42:46 +0300
+category: Kalıp Teknolojisi
 ---
 Arkadalar merhaba uzun süredir , kişisel bir blog açmak istiyorum fakat içerisinde bulunduğum birçok pigyproducts projesi aynı zamanda Makine mühendisliği alanındaki birikimimi arttırmak için buna bir türlü yeltenemiyordum.Geçtiğimiz günlerde [Github Pages](https://pages.github.com "Github Pages") adlı bir imkan ile karşılaştım ve **kişisel sitemi** bu proje ile yapılandıracağımı düşündüm.
 

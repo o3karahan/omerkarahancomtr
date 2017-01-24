@@ -6,13 +6,21 @@ description: 'Ömer Karahan - Makina-e Mühendisi - Mühendislik ve ilgilendiği
   alanlarda  paylaşım yaptığı Jekyll ile güçlendirilmiş kişisel blog sitesi.'
 keywords: 'Makine Mühendisliği , Hidrolik , Kalıp Tasarımı'
 baseurl: ''
-lang: tr-TR
+lang: tr
+locale: tr_TR
 url: 'http://omerkarahan.com.tr'
 twitter_username: o3karahan
 github_username: o3karahan
-paginate: 5
-paginate_path: "/sayfa/page:num/"
+paginate: 1
+paginate_path: "sayfa/:num"
 markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
+  enable_coderay: false
 encoding: utf-8
 gems:
 - jekyll-feed
@@ -25,12 +33,13 @@ exclude:
 - Gemfile.lock
 
 # Site Sahibi
-owner:
-  name: Ömer Karahan
-  avatar: assets/omer-karahan.jpg
+sahibi:
+  adi: Ömer Karahan
+  unvani: Makina-e Mühendisi* / PHP Coder
+  resim: assets/resimler/omer-karahan.jpg
   email: omer.karahan.tr@gmail.com
   email2: iletisim@omerkarahan.com.tr
-  disqus-shortname:
+  disqus:
   twitter: o3karahan
   facebook: o3karahan
   github: omerkarahantr

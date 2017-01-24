@@ -1,19 +1,19 @@
-<!-- Sitenin üstü -->
+	<!-- Sitenin üstü -->
 	<header id="site-ustu">
 	<div class="arkaplan-hilesi"></div>
 	<div class="ana-wrap">
-		<!-- Profil Kartı -->
-		<div class="profil-karti">
-		<figure class="profil-resmi">
-		<img src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAdqAAAAJGFiZTE1MDgxLTRmZjgtNDBiMi04NTliLTQ1MmQ3ZTZkNTlhZQ.jpg" alt="Ömer Karahan" title="Profil Resmi" />
-		</figure>
-		<div class="profil-detaylari">
-		<h1 class="profil-ismi">ÖMER KARAHAN</h1>
-		<span class="profil-unvan">Makina-e Mühendisi* / PHP Developer</span>
-		</div>
-		<span class="ikon-asagi-dogru"></span>
-		<!-- İletişimi bilgilerim @o3karahan 22.01.2017 ; 17:02 -->
-		<div class="iletisim-bilgileri">
+	<!-- Profil Kartı -->
+	<div class="profil-karti">
+	<figure class="profil-resmi">
+	<img src="{{ site.url }}/{{ site.sahibi.resim }}" width="100%" height="100%" alt="{{ site.sahibi.adi }}" title="Profil Resmi" />
+	</figure>
+	<div class="profil-detaylari">
+	<h1 class="profil-ismi">{{ site.sahibi.adi | upcase }}</h1>
+	<span class="profil-unvan">{{ site.sahibi.unvani }}</span>
+	</div>
+	<span class="ikon-asagi-dogru"></span>
+	<!-- İletişimi bilgilerim @o3karahan 22.01.2017 ; 17:02 -->
+	<div class="iletisim-bilgileri">
 		<ul>
 		<li class="baslik">Platform Hesaplarım</li>
 		<li class="standart"><a href="http://facebook.com/o3karahan" title="Ömer Karahan'ın Facebook Hesabı">http://facebook.com/o3karahan</a></li>
@@ -28,7 +28,7 @@
 		<li class="standart"><a href="mailto:iletisim@omerkarahan.com.tr" title="Ömer Karahan'ın İkinci Eposta Hesabı">iletisim@omerkarahan.com.tr</a></li>
 		<!-- Youtube Kartım -->
 		</ul>
-		</div>
-		</div>
+	</div>
+	</div>
 	</div>
 	</header>
