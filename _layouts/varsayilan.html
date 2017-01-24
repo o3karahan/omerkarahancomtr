@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-	{% include head.html %}
+<html itemscope itemtype="http://schema.org/Article" lang="{{ page.lang | default: site.lang | default: 'tr' }}">
+{% include head.html %}
 <body id="site-govde">
 <div id="site">
-	{% include header.html %}
+{% include header.html %}
 <div class="ana-wrap">
 <div id="site-icerigi" role="main">
-	{% include sidebar.html %}
-	{{ content }}
+{% include sidebar.html %}
+{{ content }}
 </div>
 </div>
 {% include footer.html %}

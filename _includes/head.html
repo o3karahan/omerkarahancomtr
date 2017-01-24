@@ -18,11 +18,10 @@
   <meta itemprop="keywords" name="keywords" content="{{ page.tags | join: ', ' }}">
   {% endif %}
   <!-- Google Doğrulaması -->
-  <meta name="google-site-verification" content="C-H2ns-d6D9OJnoVYLHMurJIXzQpRTZbQlARfauiriY" />
-  <!-- Meta : Yazar -->
-  <meta name="author" content="Ömer Karahan">
-  <!-- Meta : Tema Rengi -->
-  <meta name="theme-color" content="#ffffff">
+  <meta name="google-site-verification" content="{{ site.dogrulamalar.google }}" />
+  <meta name="msvalidate.01" content="{{ site.dogrulamalar.bing }}" />
+  <meta name="yandex-verification" content="{{ site.dogrulamalar.yandex }}" />
+  {% include seo-ayarlari.html %}
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
