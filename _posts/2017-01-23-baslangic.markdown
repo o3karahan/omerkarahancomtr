@@ -15,61 +15,7 @@ Jekyll , geçtiğimiz senelerde Github sitesinin kurucularından Tom Preston-Wer
 *   **Markdown ile rahat blog yazıları :** Aslında **Wordpress'le** oluşturulacak durağan bir siteyi Jekyll'den üstün kılan en önemli özelliği Wordpress'in text editörü olabilir fakat Jekyll'de hiçte küçümsenmeyecek Markdown gibi bir dil ile blog yazılarının yazımını kolaylaştırıyor , bu sayede fazla bir HTML kuralı bilgisine , uyarlanmasına gerek kalmadan yazılarımızı sitemize uygun hale getirebiliyoruz.
 *   **Oldukça Hızlı :** Wordpress'in en büyük sıkıntısı , kullanıcının oluşturacağı statik bir site için gereğinden fazla eklentiyi zorbalıkla yüklemesidir , eğer kullanıcı kategorileme , etiketleme , arşivleme gibi özellikleri kullanmak istemezse bunu sisteme yaptırtmayabilmeli fakat bu Wordpress'te pekte mümkün değil , bu yüzden Wordpress mimarisi siteler birçok diğer CMS sistemine göre daha yavaş oluyorki Jekyll benim için cazip kılan bir diğer önemli özellik hızlı olmasıydı.
 *   **Ücretsiz :** Bu ne zamana kadar ücretsiz sürer bilmem fakat şuan Github Pages'in yaygınlaşması için github tarafından sınırsız erişim özellikli sınırsız bir dosya barındırma hizmeti sunuluyor , bu sayede küçük projeleriniz için hosting şirketlerine yüksek mevlalar ödemek zorunda kalmıyorsunuz.
-<table>
 
-<thead>
-
-<tr>
-
-<th>Versiyon</th>
-
-<th>Eklentiler</th>
-
-<th>Diğer</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-<tr>
-
-<td>3.3.1</td>
-
-<td>Sitemap , Admin Panel</td>
-
-<td>Diğer Detaylar</td>
-
-</tr>
-
-<tr>
-
-<td>3.0.2</td>
-
-<td>Sitemap , Seo</td>
-
-<td>Ekstra Detaylar</td>
-
-</tr>
-
-</tbody>
-
-<thead>
-
-<tr>
-
-<th>Versiyon</th>
-
-<th>Eklentiler</th>
-
-<th>Diğer</th>
-
-</tr>
-
-</thead>
-
-</table>
 
 > Jekyll ismi 2007 yılında sadece 1 ay boyunca , **BBC One** ekranlarında kalmayı başaran diziden esinlenerek konulmuşta olabilir.
 

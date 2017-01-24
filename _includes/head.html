@@ -14,8 +14,8 @@
   <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Beslemesi">
   <!-- Meta : Anahtar Kelimeler -->
   <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
-  {% if page.tags %}
-  <meta itemprop="keywords" name="keywords" content="{{ page.tags | join: ', ' }}">
+  {% if page.keywords %}
+  <meta itemprop="keywords" name="keywords" content="{{ page.keywords | join: ', ' }}">
   {% endif %}
   <!-- Doğrulamaları Yüklüyorum @Ruby-o3karahan -->
   <meta name="google-site-verification" content="{{ site.dogrulamalar.google }}" />
