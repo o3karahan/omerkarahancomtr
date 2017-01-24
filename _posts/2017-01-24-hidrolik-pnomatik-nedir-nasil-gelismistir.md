@@ -1,5 +1,6 @@
 ---
 title: Hidrolik - Pnömatik nedir ve nasıl gelişmiştir ?
+date:   2017-01-25 12:42:46 +0300
 layout: tekil
 category: Hidrolik ve Pnömatik
 description : Endüstriyel alanda kullanılan , pnömatik ve hidrolik sistemler nelerdir , birbirine göre avantaj ve dezavantajları hakkında kısa bir bilgi.
