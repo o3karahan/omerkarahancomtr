@@ -1,11 +1,10 @@
 ---
 permalink: "/:year/:month/:day/:title.html"
-title: Ömer Karahan
+title: Ömer Karahan - Makina-e Mühendisi
 email: omer.karahan.tr@gmail.com
 description: 'Ömer Karahan - Makina-e Mühendisi - Mühendislik ve ilgilendiği diğer
-  alanlarda  paylaşım yaptığı Jekyll ile güçlendirilmiş kişisel blog sitesi.
-
-'
+  alanlarda  paylaşım yaptığı Jekyll ile güçlendirilmiş kişisel blog sitesi.'
+keywords: 'Makine Mühendisliği , Hidrolik , Kalıp Tasarımı'
 baseurl: ''
 url: 'http://omerkarahan.com.tr'
 twitter_username: o3karahan

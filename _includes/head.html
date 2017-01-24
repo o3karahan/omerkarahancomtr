@@ -1,21 +1,24 @@
 <head>
   <meta charset="utf-8">
   <!-- Title : Başlık -->
-  <title>Ömer Karahan - Makine Mühendisi</title>
+  <title>{% if page.title %}{{ page.title }}{% else %} {{ site.title }} {% endif %}</title>
   <!-- Base : Başlangıç -->
   <base href="">
-  <link rel="stylesheet" href="/assets/sifirlama.css" type="text/css">
-  <link rel="stylesheet" href="/assets/stil.css" type="text/css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/sifirlama.css" type="text/css">
+  <link rel="stylesheet" href="{{ site.url }}/assets/stil.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:400,700" rel="stylesheet">
+  <meta name="HandheldFriendly" content="True">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
   <link rel="canonical" href="{{ canonical }}">
-  <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
+  <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Beslemesi">
   <!-- Meta : Anahtar Kelimeler -->
-  <meta name="keywords" content="makine,mühendislik,sakarya,akışkanlar,hidrolik,kaynak,döküm,alüminyum">
-  <!-- Meta : İçerik -->
-  <meta name="description" content="Makine alanında , Akışkanlar Mekaniği ve Kalıp Teknolojisi ağırlıklı bilgiler ve daha fazlası. @o3karahan">
+  <meta itemprop="description" name="description" content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
+  {% if page.tags %}
+  <meta itemprop="keywords" name="keywords" content="{{ page.tags | join: ', ' }}">
+  {% endif %}
+  <!-- Google Doğrulaması -->
+  <meta name="google-site-verification" content="C-H2ns-d6D9OJnoVYLHMurJIXzQpRTZbQlARfauiriY" />
   <!-- Meta : Yazar -->
   <meta name="author" content="Ömer Karahan">
   <!-- Meta : Tema Rengi -->
