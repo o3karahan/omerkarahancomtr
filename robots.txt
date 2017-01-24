@@ -1,0 +1,3 @@
+User-agent: * 
+Disallow: /yuklemeler
+Sitemap: {{ site.url }}/sitemap.xml
