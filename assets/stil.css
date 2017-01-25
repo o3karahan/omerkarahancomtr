@@ -439,6 +439,7 @@ body#site-govde {
 	
 	width:100%;
 	height:100%;
+	max-height:10rem;
 	border:2px solid;
 	border-color:#fff;
 	
@@ -700,7 +701,13 @@ footer#yorumlar {
 		width:75%;
 		
 	}
+	#site-sol .widget-grabcad .grabcad-projeleri {
 	
+	padding-left:2em;
+	padding-right:1em;
+	padding-top:1em;
+	}
+	#site-sol .widget-grabcad .grabcad-projesi { padding:0.1em }
 	#site-sol ul li { font-size:1.5rem }
 	#site-sol span.grabcad-nedir { font-size:0.9rem }
 	a.grabcad-link { font-size:1.25rem }
@@ -738,7 +745,6 @@ footer#yorumlar {
 		width:55.55%;
 		
 	}
-	
 	#site-sol .widget-grabcad .grabcad-projesi { width:100% }
 	#site-sol ul li { font-size:1.25rem }
 	#site-sol span.grabcad-nedir { font-size:0.65rem }
