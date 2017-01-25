@@ -25,10 +25,8 @@ encoding: utf-8
 gems:
 
 - jekyll-feed
-- jekyll-admin
 - jekyll-sitemap
 - jekyll-paginate
-- jekyll-coffeescript
 
 exclude:
 - Gemfile
