@@ -29,6 +29,8 @@ genelde bu gibi parametreler , lastik üreticileri tarafından üretim güvenli�
 
 ![Lastiklerin üzerinde bulunan numara nasıl okunur?](/yuklemeler/lastik-numara-okuma.jpg){:class="" width="100%"}
 
+<!--dahafazla-->
+
 Değer | Kısaltması | Hesaplanması |
 ------------ | :-----------: | -----------: |
 Lastik Genişliği | **G** | 225 milimetre |
