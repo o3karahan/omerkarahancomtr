@@ -738,6 +738,11 @@ footer#yorumlar {
 		width:55.55%;
 		
 	}
+	
+	#site-sol .widget-grabcad .grabcad-projesi { width:100% }
+	#site-sol ul li { font-size:1.25rem }
+	#site-sol span.grabcad-nedir { font-size:0.65rem }
+	a.grabcad-link { font-size:1rem }
 }
 
 @media only screen and (max-width: 480px){
