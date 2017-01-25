@@ -1,54 +1,34 @@
-{% assign rawcats = "" %}
-{% for post in site.posts %}
-{% assign tcats = post.category | join:'|' | append:'|' %}
-{% assign rawcats = rawcats | append:tcats %}
-{% endfor %}
-{% assign rawcats = rawcats | split:'|' | sort %}
-{% assign cats = "" %}
-{% for cat in rawcats %}
-{% if cat != "" %}
-{% if cats == "" %}
-{% assign cats = cat | split:'|' %}
-{% endif %}
-{% unless cats contains cat %}
-{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
-{% endunless %}
-{% endif %}
-{% endfor %}
+{% assign rawcats = "" %}{% for post in site.posts %}{% assign tcats = post.category | join:'|' | append:'|' %}{% assign rawcats = rawcats | append:tcats %}{% endfor %}{% assign rawcats = rawcats | split:'|' | sort %}{% assign cats = "" %}{% for cat in rawcats %}{% if cat != "" %}{% if cats == "" %}{% assign cats = cat | split:'|' %}{% endif %}{% unless cats contains cat %}{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}{% endunless %}{% endif %}{% endfor %}
 <!-- Sitenin sol tarafı -->
 <aside id="site-sol" class="sol-wrap">
-<div class="widget">
-<ul>
-{% for ct in cats %}
-<li><a href="{{ site.url }}/kategoriler/#{{ ct | slugify }}">{{ ct }}</a></li>
-{% endfor %}
-<li><a href="{{ site.url }}/kategoriler/#diger">Diğer</a></li>
-</ul>
-</div>
-		<!-- GrabCAD profilim -->
-		<div class="widget widget-grabcad">
-		<div class="grabcad-projeleri">
-			<a href="#" class="grabcad-projesi"><img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/9815decb6668761b1997806964c9e961/large.JPG" alt="Tire#2" title="Tire#2"/></a>
-			<a href="#" class="grabcad-projesi"><img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/e57767ee6f0b1b1b3888414ad45534e6/large.JPG" alt="Tire#2" title="Tire#2"/></a>
-			<a href="#" class="grabcad-projesi"><img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/9815decb6668761b1997806964c9e961/large.JPG" alt="Tire#2" title="Tire#2"/></a>
-			<a href="#" class="grabcad-projesi"> <img src="https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/e57767ee6f0b1b1b3888414ad45534e6/large.JPG" alt="Tire#2" title="Tire#2"/></a>
-		</div>
-		<span class="grabcad-nedir">
-		Grabcad , 3 boyutlu tasarım alanında kullanıcılarına etkileşimde bulunma , CAD uygulamaları ile hazırladıkları
-		projeleri kitlelere sunma fırsatı sunan bir portal / platformdur.
-		</span>
-		<a href="#" class="grabcad-link" >GrabCAD'te Görüntüle</a>
-		</div>
-		<div class="widget widget-adsense-esnek">
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<!-- esnek_omer_karahan_comtr -->
-		<ins class="adsbygoogle"
-			 style="display:block"
-			 data-ad-client="ca-pub-2623794332507669"
-			 data-ad-slot="4689763727"
-			 data-ad-format="auto"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-		</div>
-		</aside>
+	<!-- Kategorilendirdiğim Yazılar -->
+	<div class="widget">
+	<ul>
+	{% for ct in cats %}<li><a href="{{ site.url }}/kategoriler/#{{ ct | slugify }}">{{ ct }}</a></li>{% endfor %}
+	<li><a href="{{ site.url }}/kategoriler/#diger">Diğer</a></li>
+	</ul>
+	</div>
+	<!-- GrabCAD profilim -->
+	<div class="widget widget-grabcad">
+	<div class="grabcad-projeleri">
+	{% for proje in site.data.grabcads.projects %}<a href="{{ proje.grabcad_url }}" title="{{ site.sahibi.adi }} - {{ proje.grabcad }} adlı GrabCAD projesi " class="grabcad-projesi">
+	<img src="{{ proje.grabcad_image_url }}" alt="{{ proje.grabcad }}" title="{{ site.sahibi.adi }} - {{ proje.grabcad }} adlı GrabCAD projesi "/>
+	</a>{% endfor %}
+	</div>
+	<span class="grabcad-nedir">{{ site.data.grabcads.detail.description }}</span>
+	<a href="{{ site.data.grabcads.detail.url }}" title="{{ site.sahibi.adi }} GrabCAD Profili" class="grabcad-link" >GrabCAD'te Görüntüle</a>
+	</div>
+	<!-- Adsense Reklamım -->
+	<div class="widget widget-adsense-esnek">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<!-- esnek_omer_karahan_comtr -->
+	<ins class="adsbygoogle"
+	style="display:block"
+	data-ad-client="{{ site.reklamlar.sol_esnek.client }}"
+	data-ad-slot="{{ site.reklamlar.sol_esnek.slot }}"
+	data-ad-format="{{ site.reklamlar.sol_esnek.format }}"></ins>
+	<script>
+	(adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	</div>
+</aside>

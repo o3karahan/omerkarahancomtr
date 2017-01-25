@@ -1,0 +1,27 @@
+
+detail :
+    
+    url: "#"
+    description: 
+    >
+        Grabcad , 3 boyutlu tasarım alanında kullanıcılarına etkileşimde bulunma , 
+        CAD uygulamaları ile hazırladıkları projeleri kitlelere sunma 
+        fırsatı sunan bir portal / platformdur.
+    
+projects :
+
+    - grabcad: Tire#2
+      grabcad_url:
+      grabcad_image_url: https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/9815decb6668761b1997806964c9e961/large.JPG
+      
+    - grabcad: Motor#2
+      grabcad_url:
+      grabcad_image_url: https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/e57767ee6f0b1b1b3888414ad45534e6/large.JPG
+      
+    - grabcad: Tire#1
+      grabcad_url: 
+      grabcad_image_url: https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/9815decb6668761b1997806964c9e961/large.JPG
+      
+    - grabcad: Motor#1
+      grabcad_url:
+      grabcad_image_url: https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/e57767ee6f0b1b1b3888414ad45534e6/large.JPG

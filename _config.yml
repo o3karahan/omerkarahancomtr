@@ -23,11 +23,13 @@ kramdown:
   enable_coderay: false
 encoding: utf-8
 gems:
+
 - jekyll-feed
-- jekyll-seo-tag
 - jekyll-admin
 - jekyll-sitemap
 - jekyll-paginate
+- jekyll-coffeescript
+
 exclude:
 - Gemfile
 - Gemfile.lock
@@ -60,3 +62,12 @@ dogrulamalar :
     google: C-H2ns-d6D9OJnoVYLHMurJIXzQpRTZbQlARfauiriY
     bing: FDE5EC7910E35F632ECCE0A6A49E67B2
     yandex: c422dc6df441bee2
+    
+# Reklamlar.
+reklamlar:
+
+    sol_esnek:
+        
+        client: ca-pub-2623794332507669
+        slot:   4689763727
+        format: auto

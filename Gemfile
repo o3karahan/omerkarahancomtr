@@ -22,7 +22,7 @@ group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
 end
 
-gem 'jekyll-seo-tag'
+gem 'jekyll-coffeescript'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
 gem 'jekyll-admin', group: :jekyll_plugins
