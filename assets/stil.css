@@ -687,6 +687,20 @@ footer#yorumlar {
 		width:44.44%;
 		
 	}
+	/* Video için fix ekliyorum .*/
+	#site-video .sol-wrap {
+		
+		display:none;
+		width:0%;
+		
+	}
+	#site-video .sag-wrap {
+		
+		width:100%;
+		padding-left:3em;
+		padding-right:1em;
+		
+	}
 	
 }
 @media only screen and (max-width: 640px) {
