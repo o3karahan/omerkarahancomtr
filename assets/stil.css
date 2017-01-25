@@ -1,13 +1,4 @@
-/*------------------------------------------------------------------
-[ CSS KOD İNDEKSİ ]
-1.SIFIRMALA KODLARI
-2.GÖVDE VE GENEL KODLAR
-3.HEADER-BÖLÜMÜ
-4.SOL MENÜ BÖLÜMÜ
-5.SAĞ YAZI BÖLÜMÜ
-6.YORUM BÖLÜMÜ
-7.DİĞER SAYFALAR
--------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------
 [ DETAYLAR ]
 
@@ -30,7 +21,7 @@ div#site.ana-wrap
 --> div#widget
 ---> ...
 ->Section#site-sol.sol-wrap
---> Article#yazi-{id}
+--> Article#yazi-{slug}
 ---> Header.yazi-üstü
 ----> Title.yazi-basligi
 ----> Title.yazi-metasi
@@ -140,7 +131,8 @@ body#site-govde:after,
 #site-sag article:after,
 #site-sol .widget:after,
 .grabcad-projeleri:after,
-.ana-wrap:after { 
+.ana-wrap:after,
+#site-video:after { 
    content: "."; 
    visibility: hidden; 
    display: block; 
@@ -169,6 +161,13 @@ body#site-govde {
 	color:#ffffff;
 	clear: both;	
 	position:relative;
+	
+}
+#site-ustu .ana-wrap {
+	
+	/* Kartın width 33.33% fiksliyorum @o3karahan */
+	border-right:0px solid transparent;
+	
 	
 }
 #site-ustu .arkaplan-hilesi { 
@@ -373,13 +372,13 @@ body#site-govde {
 
 .sol-wrap {
 	
-	width:33.3%;
+	width:33.33%;
 	float:left;
 	
 }
 .sag-wrap {
 	
-	width:66.6%;
+	width:66.669%;
 	float:right;
 
 }
@@ -590,6 +589,11 @@ body#site-govde {
 	color:#fff;
 	
 }
+#site-sag table.kirmizi th {
+	
+	background:#e52d27;
+	
+}
 #site-sag table tr:nth-child(2n) {
 	
 	background:#e8e8e8;
@@ -622,6 +626,40 @@ body#site-govde {
 	margin-left:0.5em;
 	
 }
+
+/* VİDEO POST İÇİN DÜZENLEME */
+#site-video {
+	
+	width:100%;
+	background:#e8e8e8;
+	padding:0;
+	
+}
+#site-video .sag-wrap {
+	
+	position:relative;
+	min-height:30rem;
+	
+}
+#site-video iframe {
+	
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	
+}
+#site-video span.ikon-sosyal-youtube-2 {
+	
+	color:#fff;
+	font-size:3em;
+	display:block;
+	text-align:center;
+	padding:2rem 0 2rem 0;
+	
+}
+#site-video .sag-wrap,#site-video .sol-wrap { border:0 }
 
 footer#yorumlar {
 	
@@ -710,13 +748,13 @@ footer#yorumlar {
 		border-right-width:0;
 		
 	}
-	aside#site-sol {
+	.sol-wrap {
 		
 		display:none;
 		width:0%;
 		
 	}
-	section#site-sag {
+	.sag-wrap {
 		
 		width:100%;
 		padding-left:3em;
