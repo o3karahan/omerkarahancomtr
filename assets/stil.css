@@ -399,7 +399,8 @@ body#site-govde {
 	border-bottom:0.1rem solid #e0e0e0;
 	text-align:right;
 	line-height:1.5;
-	word-break: break-all;
+	overflow: hidden;
+    white-space: nowrap;
 }
 #site-sol ul li a {
 	
