@@ -396,9 +396,10 @@ body#site-govde {
 	
 	font-size:2rem;
 	padding:1rem;
-	border-bottom:1px solid #e0e0e0;
+	border-bottom:0.1rem solid #e0e0e0;
 	text-align:right;
 	line-height:1.5;
+	word-break: break-all;
 }
 #site-sol ul li a {
 	
@@ -482,7 +483,7 @@ body#site-govde {
 #site-sag article {
 	
 	padding:2em 1em 2em 0;
-	border-bottom:1px solid #e0e0e0;
+	border-bottom:0.1rem solid #e0e0e0;
 	
 }
 #site-sag article.tekil { border:0; }
@@ -687,6 +688,21 @@ footer#yorumlar {
 		width:44.44%;
 		
 	}
+	
+	.sol-wrap {
+		
+		width:25%;
+		
+	}
+	.sag-wrap {
+		
+		width:75%;
+		
+	}
+	
+	#site-sol ul li { font-size:1.5rem }
+	#site-sol span.grabcad-nedir { font-size:0.9rem }
+	a.grabcad-link { font-size:1.25rem }
 	/* Video için fix ekliyorum .*/
 	#site-video .sol-wrap {
 		
@@ -702,20 +718,23 @@ footer#yorumlar {
 		
 	}
 	
-}
-@media only screen and (max-width: 640px) {
-    html {
-        font-size:39.2%;
-    }
-	#site-ustu .profil-karti {
-		
-		width:55.55%;
-		
-	}
+	
 	#site-icerigi {
 		
 		border-left-width:0;
 		border-right-width:0;
+		
+	}
+	
+}
+@media only screen and (max-width: 640px) {
+	
+    html {
+        font-size:49.2%;
+    }
+	#site-ustu .profil-karti {
+		
+		width:55.55%;
 		
 	}
 }
@@ -723,7 +742,7 @@ footer#yorumlar {
 @media only screen and (max-width: 480px){
 	
 	 html {
-        font-size:29.41%;
+        font-size:39.41%;
 	}
 	
 	#site-ustu .profil-karti {
@@ -738,12 +757,16 @@ footer#yorumlar {
 		
 	}
 	
+	#site-sol ul li { font-size:1rem }
+	#site-sol span.grabcad-nedir { font-size:0.4rem }
+	a.grabcad-link { font-size:0.75rem }
+	
 }
 
 @media only screen and (max-width: 320px) {
 	
 	html {
-        font-size:19,6%;
+        font-size:29,6%;
 	}
 	.ana-wrap {
 		
@@ -758,8 +781,7 @@ footer#yorumlar {
 	}
 	#site-icerigi {
 		
-		border-left-width:0;
-		border-right-width:0;
+		padding-right:0;
 		
 	}
 	.sol-wrap {
@@ -773,6 +795,13 @@ footer#yorumlar {
 		width:100%;
 		padding-left:3em;
 		padding-right:1em;
+		
+	}
+	
+	#site-icerigi article {
+		
+		text-align:center;
+		padding-right:0;
 		
 	}
 	
