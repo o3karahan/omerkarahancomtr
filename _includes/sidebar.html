@@ -12,7 +12,7 @@
 	<div class="widget widget-grabcad">
 	<div class="grabcad-projeleri">
 	{% for proje in site.data.grabcads.projects %}<a href="{{ proje.grabcad_url }}" title="{{ site.sahibi.adi }} - {{ proje.grabcad }} adlı GrabCAD projesi " class="grabcad-projesi">
-	<img src="{{ proje.grabcad_image_url }}" alt="{{ proje.grabcad }}" title="{{ site.sahibi.adi }} - {{ proje.grabcad }} adlı GrabCAD projesi "/>
+	<img src="{{ proje.grabcad_image_url }}" width="100%" height="100%" alt="{{ proje.grabcad }}" title="{{ site.sahibi.adi }} - {{ proje.grabcad }} adlı GrabCAD projesi "/>
 	</a>{% endfor %}
 	</div>
 	<span class="grabcad-nedir">{{ site.data.grabcads.detail.description }}</span>
