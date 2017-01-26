@@ -8,6 +8,7 @@ keywords: 'Makine Mühendisliği , Hidrolik , Kalıp Tasarımı'
 baseurl: ''
 lang: tr
 locale: tr_TR
+timezone: Europe/Istanbul
 url: 'http://omerkarahan.com.tr'
 twitter_username: o3karahan
 github_username: o3karahan
