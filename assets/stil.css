@@ -449,7 +449,8 @@ body#site-govde {
 	border-color:#f43;
 	
 }
-#site-sol span.grabcad-nedir {
+#site-sol span.grabcad-nedir,
+#site-video .youtube-nedir {
 	
 	display:block;
 	font-size:1.4em;
@@ -644,6 +645,10 @@ body#site-govde {
 	min-height:30rem;
 	
 }
+#site-video .sol-wrap { 
+	
+	height:100%;
+}
 #site-video iframe {
 	
 	position: absolute;
@@ -651,15 +656,6 @@ body#site-govde {
 	right: 0;
 	width: 100%;
 	height: 100%;
-	
-}
-#site-video span.ikon-sosyal-youtube-2 {
-	
-	color:#fff;
-	font-size:3em;
-	display:block;
-	text-align:center;
-	padding:2rem 0 2rem 0;
 	
 }
 #site-video .sag-wrap,#site-video .sol-wrap { border:0 }
@@ -709,7 +705,7 @@ footer#yorumlar {
 	}
 	#site-sol .widget-grabcad .grabcad-projesi { padding:0.1em }
 	#site-sol ul li { font-size:1.5rem }
-	#site-sol span.grabcad-nedir { font-size:0.9rem }
+	#site-sol span.grabcad-nedir,#site-video .youtube-nedir { font-size:0.9rem }
 	a.grabcad-link { font-size:1.25rem }
 	/* Video için fix ekliyorum .*/
 	#site-video .sol-wrap {
@@ -747,7 +743,7 @@ footer#yorumlar {
 	}
 	#site-sol .widget-grabcad .grabcad-projesi { width:100% }
 	#site-sol ul li { font-size:1.25rem }
-	#site-sol span.grabcad-nedir { font-size:0.65rem }
+	#site-sol span.grabcad-nedir,#site-video .youtube-nedir { font-size:0.65rem }
 	a.grabcad-link { font-size:1rem }
 }
 
@@ -770,7 +766,7 @@ footer#yorumlar {
 	}
 	
 	#site-sol ul li { font-size:1rem }
-	#site-sol span.grabcad-nedir { font-size:0.4rem }
+	#site-sol span.grabcad-nedir,#site-video .youtube-nedir { font-size:0.4rem }
 	a.grabcad-link { font-size:0.75rem }
 	
 }

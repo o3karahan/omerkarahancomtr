@@ -70,7 +70,7 @@ span.profil-unvan{font-family:'Open Sans',sans-serif;font-weight:300;font-size:1
 #site-sol .widget-grabcad .grabcad-projesi{float:left;width:25%;height:25%;padding:.5em}
 #site-sol .widget-grabcad .grabcad-projesi img{width:100%;height:100%;max-height:10rem;border:2px solid #fff}
 #site-sol .widget-grabcad a:hover img{border-color:#f43}
-#site-sol span.grabcad-nedir{display:block;font-size:1.4em;padding:1em 3em;line-height:1.6;text-align:center;font-weight:300}
+#site-sol span.grabcad-nedir,#site-video .youtube-nedir{display:block;font-size:1.4em;padding:1em 3em;line-height:1.6;text-align:center;font-weight:300}
 #site-sol a.grabcad-link{background:#f43}
 #site-sol a.grabcad-link:hover{background:#cc4d41}
 #site-sol .widget-adsense-esnek{padding:1em 1em 1em 2em}
@@ -103,8 +103,8 @@ span.profil-unvan{font-family:'Open Sans',sans-serif;font-weight:300;font-size:1
 #site-sag .devamini-goruntule .ikon-saga-dogru{font-size:2.5em;vertical-align:middle;margin-left:.5em}
 #site-video{width:100%;padding:0}
 #site-video .sag-wrap{position:relative;min-height:30rem}
+#site-video .sol-wrap{height:100%}
 #site-video iframe{position:absolute;top:0;right:0;width:100%;height:100%}
-#site-video span.ikon-sosyal-youtube-2{color:#fff;font-size:3em;display:block;text-align:center;padding:2rem 0}
 #site-video .sag-wrap,#site-video .sol-wrap{border:0}
 footer#yorumlar{width:100%;border-top:1px solid #e0e0e0;padding:2em;margin-top:4em;background:#fff}
 #site-alti .ana-wrap{padding:1em 2em;text-align:center}
@@ -114,7 +114,7 @@ footer#yorumlar{width:100%;border-top:1px solid #e0e0e0;padding:2em;margin-top:4
 #site-sol .widget-grabcad .grabcad-projeleri{padding-left:2em;padding-right:1em;padding-top:1em}
 #site-sol .widget-grabcad .grabcad-projesi{padding:.1em}
 #site-sol ul li{font-size:1.5rem}
-#site-sol span.grabcad-nedir{font-size:.9rem}
+#site-sol span.grabcad-nedir,#site-video .youtube-nedir{font-size:.9rem}
 a.grabcad-link{font-size:1.25rem}
 #site-video .sol-wrap{display:none;width:0}
 #site-video .sag-wrap{width:100%;padding-left:3em;padding-right:1em}
@@ -124,14 +124,14 @@ a.grabcad-link{font-size:1.25rem}
 #site-ustu .profil-karti{width:55.55%}
 #site-sol .widget-grabcad .grabcad-projesi{width:100%}
 #site-sol ul li{font-size:1.25rem}
-#site-sol span.grabcad-nedir{font-size:.65rem}
+#site-sol span.grabcad-nedir,#site-video .youtube-nedir{font-size:.65rem}
 a.grabcad-link{font-size:1rem}
 }
 @media only screen and (max-width:480px){html{font-size:39.41%}
 #site-ustu .profil-karti{width:66.66%}
 #site-icerigi{border-left-width:0;border-right-width:0}
 #site-sol ul li{font-size:1rem}
-#site-sol span.grabcad-nedir{font-size:.4rem}
+#site-sol span.grabcad-nedir,#site-video .youtube-nedir{font-size:.4rem}
 a.grabcad-link{font-size:.75rem}
 }
 @media only screen and (max-width:320px){html{font-size:29,6%}
