@@ -1,5 +1,6 @@
 User-agent: * 
 Disallow: /yuklemeler
 Disallow: /kategoriler
+Disallow: /sayfa/*
 Disallow: /assets
 Sitemap: http://omerkarahan.com.tr/sitemap.xml
