@@ -2,6 +2,7 @@
 title: Bir mühendisin gözünden iş ve işçi kazaları ?
 date: 2017-02-01 17:42:46 +0300
 layout: tekil
+published: false
 category:
 description: "Sanayi,özel,kurumsal firmalarda yaşanan iş kazalarını , önlenmesi için ne gibi önlemler alınabileceğini konu alan blog yazım."
 keywords: mühendislik,sanayi,özel firmalar,iş,işçi kazaları,iş güvenliği
@@ -56,4 +57,3 @@ bazı ürünler denetlenmeye değer görülmüyor ya da iş güvenliği açısı
 eğer işçiye uzatma kablosunu uzattıktan sonra kabloyu prize takma bilinci kazandırılsaydı ve bu kabloların periyodik
 bakımları her hafta cumartesi günleri veya en kötü ihtimal ile her ayda bir yapılsaydı böyle bir durum tabiki de yaşanmazdı.
 
-devam ediyorum @github_o3karahan
