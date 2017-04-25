@@ -1,73 +1,39 @@
----
-permalink: "/:year/:month/:day/:title.html"
-title: Ömer Karahan - Makina-e Mühendisi
-email: omer.karahan.tr@gmail.com
-description: 'Ömer Karahan - Makina-e Mühendisi - Mühendislik ve ilgilendiği diğer
-  alanlarda  paylaşım yaptığı Jekyll ile güçlendirilmiş kişisel blog sitesi.'
-keywords: 'Makine Mühendisliği , Hidrolik , Kalıp Tasarımı'
-baseurl: ''
-lang: tr
-locale: tr_TR
-timezone: Europe/Istanbul
-url: 'http://omerkarahan.com.tr'
-twitter_username: o3karahan
-github_username: o3karahan
-paginate: 4
-paginate_path: "sayfa/:num"
+# Site settings
+title: Jekyll-Uno
+description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+url: 'http://joshgerdes.com/jekyll-uno'
+baseurl: '/jekyll-uno/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Josh Gerdes'
+  email: josh@joshgerdes.com
+  twitter_username: joshgerdes
+  facebook_username: joshgerdes
+  github_username:  joshgerdes
+  linkedin_username:  joshgerdes
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
+highlighter: rouge
+
 kramdown:
+  # use Github Flavored Markdown
   input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..2
-  enable_coderay: false
-encoding: utf-8
-gems:
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
-- jekyll-feed
-- jekyll-sitemap
-- jekyll-paginate
-
-exclude:
-- Gemfile
-- Gemfile.lock
-
-# Site Sahibi
-sahibi:
-  adi: Ömer Karahan
-  unvani: Makina-e Mühendisi* / PHP Coder
-  resim: assets/resimler/omer-karahan.jpg
-  email: omer.karahan.tr@gmail.com
-  email2: iletisim@omerkarahan.com.tr
-  disqus:
-  twitter: o3karahan
-  facebook: o3karahan
-  github: omerkarahantr
-  stackexchange: #http://stackoverflow.com/users/123456/username
-  linkedin: o3karahan
-  instagram: o3karahan
-  flickr: #username
-  tumblr: #username
-  pinterest: #username
-  weibo: #userid
-  google: 
-    plus: o3karahan
-    plus_url: https://plus.google.com/u/1/115696628227205836104
-  
-# Doğrulamalar.
-dogrulamalar :
-    
-    google: C-H2ns-d6D9OJnoVYLHMurJIXzQpRTZbQlARfauiriY
-    bing: FDE5EC7910E35F632ECCE0A6A49E67B2
-    yandex: c422dc6df441bee2
-    analtytics: UA-90927425-1
-    
-# Reklamlar.
-reklamlar:
-
-    sol_esnek:
-        
-        client: ca-pub-2623794332507669
-        slot:   4689763727
-        format: auto
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
